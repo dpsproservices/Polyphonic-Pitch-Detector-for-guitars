@@ -1,0 +1,19 @@
+/*
+ * the configured options and settings for pdct
+ *
+ */
+
+/* version number */
+#define pdct_VERSION_MAJOR @pdct_VERSION_MAJOR@
+#define pdct_VERSION_MINOR @pdct_VERSION_MINOR@
+#define pdct_VERSION_PATCH @pdct_VERSION_PATCH@
+#define pdct_VERSION_BUILD @pdct_VERSION_BUILD@
+
+/* project name */
+#define pdct_log_name      "@PROJECT_NAME@"
+
+/* does the platform provide hyperthreading (as intel) ? */
+#define HYPER_THREADING_COUNT @HYPER_THREADING_COUNT@
+
+
+

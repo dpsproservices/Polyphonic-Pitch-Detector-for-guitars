@@ -1,0 +1,13 @@
+FILE(GLOB cpp_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
+FILE(GLOB h_HEADERS ${CMAKE_CURRENT_SOURCE_DIR}/*.h)
+
+set(pdct_lib_SOURCES
+   ${pdct_lib_SOURCES}
+   ${cpp_SOURCES}
+   PARENT_SCOPE
+)
+set(pdct_lib_HEADERS
+   ${pdct_lib_HEADERS}
+   ${h_HEADERS}
+   PARENT_SCOPE
+)
